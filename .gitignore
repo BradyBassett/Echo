@@ -1,20 +1,20 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/frontend/node_modules
-/frontend/.pnp
-/frontend/.pnp.js
-/frontend/.yarn/install-state.gz
+/Echo.Web/node_modules
+/Echo.Web/.pnp
+/Echo.Web/.pnp.js
+/Echo.Web/.yarn/install-state.gz
 
 # testing
-/frontend/coverage
+/Echo.Web/coverage
 
 # next.js
-/frontend/.next/
-/frontend/out/
+/Echo.Web/.next/
+/Echo.Web/out/
 
 # production
-/frontend/build
+/Echo.Web/build
 
 # misc
 .DS_Store
@@ -26,51 +26,51 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-/frontend/.env*.local
+/Echo.Web/.env*.local
 
 # vercel
-/frontend/.vercel
+/Echo.Web/.vercel
 
 # typescript
-/frontend/*.tsbuildinfo
-/frontend/next-env.d.ts
+/Echo.Web/*.tsbuildinfo
+/Echo.Web/next-env.d.ts
 
 # Build Folders
-/Echo.Api/bin
-/Echo.Api/obj
+/backend/Echo.Api/bin
+/backend/Echo.Api/obj
 
 # User-specific Files
-/Echo.Api/.vscode/
+/backend/Echo.Api/.vscode/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
 # Logs
-/Echo.Api/*.log
+/backend/Echo.Api/*.log
 
 # Visual Studio Files
-/Echo.Api/.vs/
-.Echo.Api/.resharper/
+/backend/Echo.Api/.vs/
+.backend/Echo.Api/.resharper/
 *.sln.ide
 
 # NuGet
-/Echo.Api/packages/
+/backend/Echo.Api/packages/
 *.nupkg
-/Echo.Api/project.lock.json
-/Echo.Api/project.fragment.lock.json
+/backend/Echo.Api/project.lock.json
+/backend/Echo.Api/project.fragment.lock.json
 
 # .NET Core
-/Echo.Api/project.lock.json
-/Echo.Api/project.fragment.lock.json
-/Echo.Api/artifacts/
+/backend/Echo.Api/project.lock.json
+/backend/Echo.Api/project.fragment.lock.json
+/backend/Echo.Api/artifacts/
 
 # Rider IDE files
-/Echo.Api/.idea/
+/backend/Echo.Api/.idea/
 
 # macOS specific
 .DS_Store
 
 # Environment and Config
-/Echo.Api/*.env
-/Echo.Api/appsettings*.json
+/backend/Echo.Api/*.env
+/backend/Echo.Api/appsettings*.json
