@@ -36,41 +36,41 @@ yarn-error.log*
 /frontend/next-env.d.ts
 
 # Build Folders
-/backend/bin
-/backend/obj
+/Echo.Api/bin
+/Echo.Api/obj
 
 # User-specific Files
-/backend/.vscode/
+/Echo.Api/.vscode/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
 # Logs
-/backend/*.log
+/Echo.Api/*.log
 
 # Visual Studio Files
-/backend/.vs/
-.backend/.resharper/
+/Echo.Api/.vs/
+.Echo.Api/.resharper/
 *.sln.ide
 
 # NuGet
-/backend/packages/
+/Echo.Api/packages/
 *.nupkg
-/backend/project.lock.json
-/backend/project.fragment.lock.json
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
 
 # .NET Core
-/backend/project.lock.json
-/backend/project.fragment.lock.json
-/backend/artifacts/
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
+/Echo.Api/artifacts/
 
 # Rider IDE files
-/backend/.idea/
+/Echo.Api/.idea/
 
 # macOS specific
 .DS_Store
 
 # Environment and Config
-/backend/*.env
-/backend/appsettings*.json
+/Echo.Api/*.env
+/Echo.Api/appsettings*.json
