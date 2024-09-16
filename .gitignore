@@ -36,41 +36,41 @@ yarn-error.log*
 /Echo.Web/next-env.d.ts
 
 # Build Folders
-/backend/Echo.Api/bin
-/backend/Echo.Api/obj
+/Echo.Api/bin
+/Echo.Api/obj
 
 # User-specific Files
-/backend/Echo.Api/.vscode/
+/Echo.Api/.vscode/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
 # Logs
-/backend/Echo.Api/*.log
+/Echo.Api/*.log
 
 # Visual Studio Files
-/backend/Echo.Api/.vs/
-.backend/Echo.Api/.resharper/
+/Echo.Api/.vs/
+/Echo.Api/.resharper/
 *.sln.ide
 
 # NuGet
-/backend/Echo.Api/packages/
+/Echo.Api/packages/
 *.nupkg
-/backend/Echo.Api/project.lock.json
-/backend/Echo.Api/project.fragment.lock.json
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
 
 # .NET Core
-/backend/Echo.Api/project.lock.json
-/backend/Echo.Api/project.fragment.lock.json
-/backend/Echo.Api/artifacts/
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
+/Echo.Api/artifacts/
 
 # Rider IDE files
-/backend/Echo.Api/.idea/
+/Echo.Api/.idea/
 
 # macOS specific
 .DS_Store
 
 # Environment and Config
-/backend/Echo.Api/*.env
-/backend/Echo.Api/appsettings*.json
+/Echo.Api/*.env
+/Echo.Api/appsettings*.json
