@@ -1,0 +1,76 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Echo.Web/node_modules
+/Echo.Web/.pnp
+/Echo.Web/.pnp.js
+/Echo.Web/.yarn/install-state.gz
+
+# testing
+/Echo.Web/coverage
+
+# next.js
+/Echo.Web/.next/
+/Echo.Web/out/
+
+# production
+/Echo.Web/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+/Echo.Web/.env*.local
+
+# vercel
+/Echo.Web/.vercel
+
+# typescript
+/Echo.Web/*.tsbuildinfo
+/Echo.Web/next-env.d.ts
+
+# Build Folders
+/Echo.Api/bin
+/Echo.Api/obj
+
+# User-specific Files
+/Echo.Api/.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+/Echo.Api/*.log
+
+# Visual Studio Files
+/Echo.Api/.vs/
+/Echo.Api/.resharper/
+*.sln.ide
+
+# NuGet
+/Echo.Api/packages/
+*.nupkg
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
+
+# .NET Core
+/Echo.Api/project.lock.json
+/Echo.Api/project.fragment.lock.json
+/Echo.Api/artifacts/
+
+# Rider IDE files
+/Echo.Api/.idea/
+
+# macOS specific
+.DS_Store
+
+# Environment and Config
+/Echo.Api/*.env
+/Echo.Api/appsettings*.json
